@@ -1,0 +1,29 @@
+{
+  "name": "discordbot",
+  "version": "1.0.0",
+  "description": "Discord Bot clock",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "dev:watch": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bird2008/Discord-bot.git"
+  },
+  "keywords": [
+    "discord"
+  ],
+  "author": "Bartosz Orzechowski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bird2008/Discord-bot/issues"
+  },
+  "homepage": "https://github.com/bird2008/Discord-bot#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "discord.js": "^12.5.1",
+    "nodemon": "^2.0.7"
+  }
+}
